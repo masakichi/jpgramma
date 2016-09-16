@@ -1,0 +1,20 @@
+{
+    "name": "JPGramma",
+    "package": "JPGramma",
+    "index": "index.html",
+    "selectors": {
+        "h2+ol>li>a:first-child": "Category",
+        "h2": {
+          "type":"Test",
+          "regexp": "",
+          "replacement": "",
+          "matchpath": ".*_ex\\.html"
+        }
+    },
+    "ignore": [
+        "本章节用到的词汇"
+    ],
+    "icon32x32": "nihongo.png",
+    "allowJS": true,
+    "ExternalURL": "https://github.com/masakichi/jpgramma"
+}
